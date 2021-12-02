@@ -1,5 +1,3 @@
-
-
 def load_data():
     with open('input.txt', 'r') as f:
         data = [[line.split()[0], int(line.split()[1])] for line in f]
