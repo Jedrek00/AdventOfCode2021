@@ -1,6 +1,6 @@
 def load_data():
     with open('input.txt', 'r') as f:
-        data = [int(x) for x in f]
+        data = [int(line) for line in f]
         return data
 
 
